@@ -74,6 +74,7 @@ h1 {
 
 h2 {
     font-size: 2.00em;
+    padding-top: 0.5em !important;
 }
 
 h3 {
@@ -237,7 +238,7 @@ td.room {
 }
 
 td.date {
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     width: 130px;
     text-align: right;
     vertical-align: top;
@@ -356,7 +357,15 @@ footer {
 
     td.date {
         font-size: 1.6em;
-        padding-top: 0.5em;
+        /*padding-top: 0.5em;*/
+    }
+
+    td.speaker {
+        font-size: 1.2em;
+    }
+
+    td.abstract {
+        font-size: 1.2em;
     }
 
     td.navigation {
